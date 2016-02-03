@@ -31,7 +31,7 @@ public class Grabber extends Subsystem {
 	    outsideContact = new DigitalInput(5);
         LiveWindow.addActuator("insideContact", "LimitSwitch", insideContact);
         LiveWindow.addActuator("outsideContact", "LimitSwitch", outsideContact);
-		
+	
 	}
     
     // Put methods for controlling this subsystem
