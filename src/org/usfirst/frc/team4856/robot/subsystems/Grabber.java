@@ -50,7 +50,7 @@ public class Grabber extends Subsystem {
     	if(isFullyOpen()){
     		stop();
     	} else {
-    	    grabberMotor.set(0.7);
+    	    grabberMotor.set(0.40);//picking up the ball
     	}
     	
     }
@@ -59,7 +59,7 @@ public class Grabber extends Subsystem {
 	    if(isFullyClosed()){
 	    	stop(); //why are you doing this to us
 	    } else {
-	    	grabberMotor.set(-0.7);
+	    	grabberMotor.set(-0.7);//shooting
 	    }
 	    	
 	}

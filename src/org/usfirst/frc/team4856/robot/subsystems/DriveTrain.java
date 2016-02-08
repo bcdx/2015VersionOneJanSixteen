@@ -42,7 +42,7 @@ public class DriveTrain extends Subsystem {
     }
     
     public void drive(double left, double right) {
-		chassis.tankDrive(-0.85*left, -0.85*right); //tankDrive has already been defined in RobotDrive
+		chassis.tankDrive(0.8*left, 0.8*right); //tankDrive has already been defined in RobotDrive
 		
 //left and right are dummy variables that stand in for the values that we will define in the following section:
 	}

@@ -25,9 +25,9 @@ public class OI {
 	//declares variables of Joystick type (i.e. lefStick is an instance of Joystick.)
 	//0, 1, and 2 refer to USB ports
 	//uses leftStick and rightStick for tank drive and elevatorStick to control the elevator
-	 public Joystick leftStick = new Joystick(0);
+	 public Joystick leftStick = new Joystick(2);
 	 public Joystick rightStick = new Joystick(1);
-	 public Joystick elevatorStick = new Joystick(2);
+	 public Joystick elevatorStick = new Joystick(0);
 	 
 	 //public OI() is a constructor of the OI class (defines/intializes the OI class)
 	public OI() {
